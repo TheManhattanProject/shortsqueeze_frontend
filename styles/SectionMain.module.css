@@ -1,0 +1,149 @@
+.main_wrapper{
+    background-color: rgb(58, 57, 57);
+    height: 100%;
+
+}
+
+
+.left_parent_container{
+    
+    max-width: 45%;
+    
+    color: white;
+}
+
+.text_container{
+    padding:  0.5rem 2rem;
+    position: relative;
+    top: -20px;
+    
+
+
+}
+.text_container h1{
+    font-size: 5rem;
+    font-weight: 650;
+    letter-spacing: 3px;
+    margin: 10px 0 0 0;
+    line-height: 102px;
+    
+}
+.achievements{
+    display: flex;
+    padding:  0.2rem 2.2rem;
+    color: #999999;
+    
+    
+}
+.achievements p{
+    margin-right: 4rem;
+}
+.achievements span{
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+
+/*-------------------Right Main Section--------------------------*/
+
+.right_parent_container{
+    /* background-color: aliceblue; */
+    width: 60%;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 1rem;
+    z-index: 1;
+}
+/* .section_img_wrapper{
+    /* background-color: rgb(124, 124, 124); */
+    /* width: 70%;
+    display: flex;
+     */ 
+.section_img_wrapper{
+    position: relative;
+    top: 14vh;
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+    
+}
+.img{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.section_img_wrapper .section_img{
+    background-color: black;
+    width: 420px;
+    height: 100%;
+    background-image: url(../public/iphone.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: auto;
+    position: relative;
+    top: 100px;
+}
+
+
+/*-------------------Text Floaters--------------------------*/
+.section_img p{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+   
+}
+
+.floater_text_1{
+    background-color: #FE5721;
+    width: 100px;
+    height: 40px;
+    position: relative;
+    left: -60px;
+    top: 18%;
+    border-radius: 10px;
+}
+.floater_text_2{
+    background-color: #FEA621;
+    width: 190px;
+    height: 80px;
+    position: relative;
+    left: 265px;
+    top: -130px;
+    border-radius: 10px;
+    font-size: 2rem;
+}
+
+.floater_text_3{
+    background-color: #21C9FE;
+    width: 120px;
+    height: 62px;
+    position: relative;
+    left: 380px;
+    top: 70px;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+.floater_text_4{
+    background-color: #EF6B6B;
+    width: 85px;
+    height: 40px;
+    position: relative;
+    left: -65px;
+    top: 140px;
+    border-radius: 10px;
+    font-size: 0.7rem;
+}
+.floater_text_5{
+    background-color: #81C860;
+    width: 105px;
+    height: 38px;
+    position: relative;
+    left: 370px;
+    top: 160px;
+    border-radius: 10px;
+}

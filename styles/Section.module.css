@@ -1,0 +1,14 @@
+.img_container{
+    box-sizing: border-box;
+    display: block;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(47, 34, 232);
+    position: relative;
+    bottom: 0px;
+}
+
+.img{
+    position: absolute;
+    top: 30px;
+}

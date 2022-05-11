@@ -1,0 +1,46 @@
+.theme1{
+    position: relative;
+    height: 2.2rem;
+    margin-top: 1rem;
+
+
+    
+}
+.theme2{
+    background-color: aqua;
+}
+.theme3{
+    background-color: aquamarine;
+}
+
+
+.header_container{
+    background-color: black;
+    color: white;
+    font-family: 'Gilroy-Regular';
+}
+
+.nav_container{
+    padding: 0.5rem 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search_bar{
+    padding: 1rem 0rem;
+    margin-top: 0.2rem;
+    
+
+}
+.search_bar input{
+    background-color: black;
+    color: white;
+    border: 0px;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 1.7rem;
+    padding: 0.5rem;
+}
+.search_bar input::placeholder{
+    color: #999999;
+}
